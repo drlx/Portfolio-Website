@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Narrow", "Arial Narrow", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-bar {
+  width: 100%;
+  height: 10%;
+  order: 1;
+  border-bottom: 1px solid grey;
+  position: relative;
+}
+
+.logo img {
+  height: 90%;
+  position: absolute;
+  left: 2%;
+}
+
+.name {
+  position: relative;
+  height: 90%;
+  right: 2%;
+  text-align: right;
+  padding-bottom: 0.5em;
+}
+
+.name h1 {
+  letter-spacing: 3px;
+  font-weight: lighter;
+  margin: 0px;
+}
+
+.name h4 {
+  font-weight: lighter;
+  margin: 0px;
+}
+
+.slider {
+  width: 100%;
+  order: 2;
+  height: 400px;
+  background-image: url("../img/sliderimage.jpg");
+  border-bottom: 1px solid grey;
+}
+
+.slider h1 {
+  color: #2d3c49;
+  text-shadow: 1px 1px 10px rgba(255, 255, 255, 1);
+  /* Sourced from https://css3gen.com/text-shadow/ */
+  position: absolute;
+  width: 100%;
+  top: 200px;
+  text-align: center;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.featured h1 {
+  width: 100%;
+  order: 3;
+  color: #7d97ad;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  margin-bottom: 0px;
+  margin-left: 2%;
+}
+
+.projects {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects h2 {
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+
+.projects h3 {
+  margin-top: 0px;
+  font-style: italic;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.project1 {
+  width: 31%;
+  min-width: 300px;
+  order: 1;
+  color: #2d3c49;
+  text-align: center;
+  padding: 2%;
+  margin: auto;
+}
+
+.project1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 22px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 22px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 22px 1px rgba(0, 0, 0, 0.75);
+  /* Sourced from http://www.cssmatic.com/box-shadow */
+  cursor: pointer;
+}
+
+.project2 {
+  width: 31%;
+  min-width: 300px;
+  order: 2;
+  color: #2d3c49;
+  text-align: center;
+  padding: 2%;
+  margin: auto;
+}
+
+.project2 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 22px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 22px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 22px 1px rgba(0, 0, 0, 0.75);
+  /* Sourced from http://www.cssmatic.com/box-shadow */
+  cursor: pointer;
+}
+
+.project3 {
+  width: 31%;
+  min-width: 300px;
+  order: 3;
+  color: #2d3c49;
+  text-align: center;
+  padding: 2%;
+  margin: auto;
+}
+
+.project3 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 22px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 22px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 22px 1px rgba(0, 0, 0, 0.75);
+  /* Sourced from http://www.cssmatic.com/box-shadow */
+  cursor: pointer;
+}
