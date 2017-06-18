@@ -39,7 +39,7 @@ body {
   margin: 0px;
 }
 
-.slider {
+main {
   width: 100%;
   order: 2;
   height: 400px;
@@ -47,16 +47,29 @@ body {
   border-bottom: 1px solid grey;
 }
 
-.slider h1 {
+main h1 {
   color: #2d3c49;
   text-shadow: 1px 1px 10px rgba(255, 255, 255, 1);
   /* Sourced from https://css3gen.com/text-shadow/ */
-  position: absolute;
+  position: relative;
+  margin-left: auto;
   width: 100%;
-  top: 200px;
+  top: 150px;
   text-align: center;
   z-index: 1;
   cursor: pointer;
+}
+
+main p {
+  width: 50%;
+  text-shadow: 1px 1px 10px rgba(255, 255, 255, 1);
+  /* Sourced from https://css3gen.com/text-shadow/ */
+  position: relative;
+  width: 50%;
+  left: 25%;
+  top: 150px;
+  text-align: center;
+  z-index: 1;
 }
 
 .featured h1 {
@@ -69,7 +82,7 @@ body {
   margin-left: 2%;
 }
 
-.projects {
+.container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
