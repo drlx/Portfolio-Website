@@ -43,7 +43,7 @@ main {
   width: 100%;
   order: 2;
   height: 400px;
-  background-image: url("../img/sliderimage.jpg");
+  background: url(../img/sliderimage.jpg);
   border-bottom: 1px solid grey;
 }
 
@@ -79,7 +79,6 @@ main p {
   letter-spacing: 3px;
   font-weight: lighter;
   margin-bottom: 0px;
-  margin-left: 2%;
 }
 
 .container {
@@ -103,12 +102,12 @@ main p {
 
 .project1 {
   width: 31%;
-  min-width: 300px;
   order: 1;
   color: #2d3c49;
   text-align: center;
   padding: 2%;
   margin: auto;
+  min-width: 130px;
 }
 
 .project1 img {
@@ -124,12 +123,12 @@ main p {
 
 .project2 {
   width: 31%;
-  min-width: 300px;
   order: 2;
   color: #2d3c49;
   text-align: center;
   padding: 2%;
   margin: auto;
+  min-width: 130px;
 }
 
 .project2 img {
@@ -145,12 +144,12 @@ main p {
 
 .project3 {
   width: 31%;
-  min-width: 300px;
   order: 3;
   color: #2d3c49;
   text-align: center;
   padding: 2%;
   margin: auto;
+  min-width: 130px;
 }
 
 .project3 img {
